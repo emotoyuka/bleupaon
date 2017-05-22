@@ -1,0 +1,91 @@
+.concept-txt{
+    padding: 20px 10px;
+//    clear: both;
+    background-color: #fff;
+    line-height: 1.5rem;
+    max-width: 445px;
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+.fl-right{
+        float: right;
+    }
+
+.concept-higher-img{
+    width: 100%;
+    height: 185px;
+    background: url(../img/concept-1.jpg) center center;
+    background-size: cover;
+}
+
+.concept-lower-img1{
+    float: left;
+    width: 30%;
+    height: 185px;
+    background: url(../img/concept-3.jpg) center center;
+    background-size: cover;
+}
+
+.concept-lower-img2{
+    float: right;
+    width: 70%;
+    height: 185px;
+    background: url(../img/concept-2.jpg) center center;
+    background-size: cover;
+}
+
+//shopinfo
+
+.info-txt{
+    font-style: normal;
+}
+
+.shop-img{
+    width: 100%;
+    height: 237px;
+    background: url(../img/shopinfo.jpg) center center;
+    background-size: cover;
+}
+
+@media screen and(min-width:$tab){
+    .concept-txt{
+        width: 445px;
+        height: 620px;
+    }
+    
+}
+
+@media screen and(min-width:$pc){
+    .concept-higher-img{
+        float: right;
+        width: 1061px;
+        height: 620px;
+    }
+    .fl-left{
+        float: left;
+    }
+    
+    .inner{
+        width: 1200px;
+    }
+    
+    .info-txt{
+        width: 400px;
+        height: 530px;
+        float: left;
+    }
+    .shop-img{
+        width: 770px;
+        height: 570px;
+        float: right;
+    }
+    
+    .mapwidth {
+	max-width: 100%;
+}
+}
