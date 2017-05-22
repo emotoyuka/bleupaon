@@ -86,6 +86,9 @@ hr {
 input, select {
   vertical-align: middle; }
 
+* {
+  font-family: "02うつくし明朝体", serif; }
+
 .bg-blue {
   background-color: #abd5e7; }
 
@@ -232,6 +235,36 @@ img {
   .concept-txt {
     width: 445px;
     height: 620px; } }
+
+.menu-container {
+  width: 1200px;
+  margin: 0 auto; }
+
+ul {
+  float: left;
+  width: 400px;
+  margin-right: 20px;
+  color: #292929; }
+  ul li {
+    list-style-type: none;
+    line-height: 1.5; }
+  ul a {
+    color: #292929;
+    text-decoration: none; }
+
+.contents img {
+  width: 700px; }
+
+.menu-heading {
+  font-size: 24px;
+  margin-bottom: 20px; }
+
+.menu-last {
+  margin-bottom: 40px; }
+
+.l-bakes-main .contents {
+  float: left;
+  margin-right: 20px; }
 
 .l-mainvisual {
   width: 100%;

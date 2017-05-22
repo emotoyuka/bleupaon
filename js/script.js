@@ -25,4 +25,19 @@ $(function(){
             next = 1;
         }
     }
+    
+//    cafemenu
+    
+    $('.contents div[class != "tab1"]').hide();
+    
+    $('a').click(function(){
+        
+        $('.contents div').hide();
+        
+        $($(this).attr('href')).show();
+        
+        
+        return false;
+    })
+    
 })
