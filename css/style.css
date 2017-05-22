@@ -160,19 +160,6 @@ img {
   margin-bottom: 20px;
   padding: 5px; }
 
-.concept-txt {
-  padding: 20px 10px;
-  background-color: #fff;
-  line-height: 1.5rem;
-  max-width: 445px; }
-  .concept-txt h3 {
-    font-size: 18px; }
-  .concept-txt p {
-    font-size: 16px; }
-
-.fl-right {
-  float: right; }
-
 .concept-higher-img {
   width: 100%;
   height: 185px;
@@ -180,14 +167,12 @@ img {
   background-size: cover; }
 
 .concept-lower-img1 {
-  float: left;
   width: 30%;
   height: 185px;
   background: url(../img/concept-3.jpg) center center;
   background-size: cover; }
 
 .concept-lower-img2 {
-  float: right;
   width: 70%;
   height: 185px;
   background: url(../img/concept-2.jpg) center center;
@@ -204,28 +189,49 @@ img {
 
 @media screen and (min-width: 600px) {
   .concept-txt {
+    padding: 20px 10px;
+    background-color: #fff;
+    line-height: 1.5rem;
+    max-width: 445px;
+    box-sizing: border-box; }
+    .concept-txt h3 {
+      font-size: 18px; }
+    .concept-txt p {
+      font-size: 16px; }
+  .container {
+    width: 1200px;
+    margin: 0 auto; }
+  .concept-higher ul {
+    float: right;
+    width: 1200px;
+    height: 620px; }
+  .concept-higher li {
+    float: left;
+    list-style-type: none; }
+    .concept-higher li:nth-of-type(2) {
+      width: 755px; }
+  .concept-higher-img {
+    height: 620px; }
+  .concept-lower {
+    clear: both; }
+    .concept-lower ul {
+      height: 620px; }
+    .concept-lower li {
+      list-style-type: none; }
+      .concept-lower li:nth-of-type(1) {
+        float: left;
+        width: 394px; }
+      .concept-lower li:nth-of-type(2) {
+        float: left;
+        width: 680px; }
+      .concept-lower li:nth-of-type(3) {
+        float: left; }
+    .concept-lower-img1, .concept-lower .concept-lower-img2 {
+      width: 100%;
+      height: 620px; }
+  .concept-txt {
     width: 445px;
     height: 620px; } }
-
-@media screen and (min-width: 960px) {
-  .concept-higher-img {
-    float: right;
-    width: 1061px;
-    height: 620px; }
-  .fl-left {
-    float: left; }
-  .inner {
-    width: 1200px; }
-  .info-txt {
-    width: 400px;
-    height: 530px;
-    float: left; }
-  .shop-img {
-    width: 770px;
-    height: 570px;
-    float: right; }
-  .mapwidth {
-    max-width: 100%; } }
 
 .l-mainvisual {
   width: 100%;
