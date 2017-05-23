@@ -11,6 +11,35 @@
     left: 50%;
 }
 
+.nav-bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    z-index: 10;
+    border: 3px solid $bg-blue;
+    box-sizing: border-box;
+}
+
+.js-nav{
+    &-list{
+        text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 20;
+}
+    &-link{
+        text-decoration: none;
+        color: #292929;
+    }
+}
+
 @media screen and(min-width:$tab){
     .gnav{
         position: absolute;

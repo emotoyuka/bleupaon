@@ -47,11 +47,20 @@
     background-size: cover;
 }
 
+//concept
+
 .l-concept-heading {
     background: url(../img/concept-mv.jpg) center center;
     background-size: cover;
 }
 
+@media screen and (min-width:$tab){
+    .heading{
+        height: 300px;
+        line-height: 300px;
+        font-size: 36px;
+    }
+}
 
 
 @media screen and (min-width:$pc){
@@ -59,7 +68,16 @@
         height: 550px;
         font-size: 48px;
         line-height: 550px;
+        &-blue{
+            font-size: 24px;
+            line-height: 1.4;
+            border-bottom: 2px solid #558997;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+             width: 10em;
+        }
     }
+       
     
     .info-heading {
         padding: 100px 0;
