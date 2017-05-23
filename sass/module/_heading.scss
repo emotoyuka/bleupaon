@@ -1,72 +1,10 @@
-.heading {
-    width: 100%;
-    height: 115px;
-    text-align: center;
-    line-height: 115px;
-    color: #fff;
-    font-family: $default-font;
-    font-size: 24px;
-}
-
-//影
-.shadow{
-    text-shadow: 0 5px 10px #000;
-}
-
-//l-mainvisual
-.l-mainvisual {
-    background: url(../img/mv-cake.jpg) center 25%;
-    background-size: cover;
-}
-
-//l-concept
-.heading-blue {
-        font-size: 18px;
-        line-height: 1.5rem;
-        color: #558997;
-        font-family: $txt-font;
-        margin-bottom: 20px;
-    }
-
 //l-infomation
-.info-heading {
-    line-height: 1.2rem;
-    text-align: center;
+
+.heading{
+   text-align: center;
     padding: 20px 0;
     color: #fff;
     font-size: 18px;
     font-weight: bold;
     background-color: #a5cddb;
-    font-family: $default-font;
-    letter-spacing: 1px;
-}
-
-//.l-contact
-.l-contact-heading {
-    background: url(../img/contact-mv.jpg) center center;
-    background-size: cover;
-}
-
-.l-concept-heading {
-    background: url(../img/concept-mv.jpg) center center;
-    background-size: cover;
-}
-
-
-
-@media screen and (min-width:$pc){
-    .heading{
-        height: 550px;
-        font-size: 48px;
-        line-height: 550px;
-    }
-    
-    .info-heading {
-        padding: 100px 0;
-        font-size: 48px;
-    }
-    
-    .heading-large{
-        font-size: 48px;
-    }
 }
